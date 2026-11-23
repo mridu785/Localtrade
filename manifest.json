@@ -1,0 +1,23 @@
+{
+  "name": "Axom Bazar — Local Marketplace",
+  "short_name": "Axom Bazar",
+  "description": "Buy and sell locally in Assam. Phones, cars, furniture, property and more.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f766e",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["shopping", "business"],
+  "icons": [
+    { "src": "./assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./assets/icons/maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Sell an item", "url": "./index.html#/sell" },
+    { "name": "Search", "url": "./index.html#/search" },
+    { "name": "My chats", "url": "./index.html#/chats" }
+  ]
+}
